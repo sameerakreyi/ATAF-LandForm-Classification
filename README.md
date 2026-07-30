@@ -130,7 +130,13 @@ The classified surface should be validated against independent reference data (e
 5. اضغط زر **▶ RUN CLASSIFICATION**.
 6. بعد عرض الخريطة، استخدم زر **Export Classification (GeoTIFF)** لتصدير النتيجة إلى Google Drive.
 
-## 6. Repository Structure | هيكلية المستودع
+##6.## Live Application | التطبيق المباشر
+
+[![Open in Google Earth Engine](https://img.shields.io/badge/Open%20in-Google%20Earth%20Engine-4CAF50?logo=google&logoColor=white)](https://code.earthengine.google.com/31c06649debd0f95867c9d280b69d3fa)
+
+> Click the badge above to launch the interactive ATAF app directly in GEE Code Editor.
+
+## 7. Repository Structure | هيكلية المستودع
 
 ```
 ├── Code/
@@ -139,7 +145,7 @@ The classified surface should be validated against independent reference data (e
 └── LICENSE
 ```
 
-## 7. Requirements | المتطلبات
+## 8. Requirements | المتطلبات
 
 - A registered Google Earth Engine account (https://earthengine.google.com/).
 - A GEE `FeatureCollection` asset representing the boundary of the study area.
@@ -149,7 +155,7 @@ The classified surface should be validated against independent reference data (e
 - أصل من نوع `FeatureCollection` على GEE يمثّل حدود منطقة الدراسة.
 - لا حاجة لتثبيت أي برمجية محلية — يعمل خط الأنابيب بالكامل داخل المتصفح عبر محرر أكواد GEE.
 
-## 8. Limitations | القيود المنهجية
+## 9. Limitations | القيود المنهجية
 
 - TWI is a slope-based approximation rather than a true flow-accumulation-based index, since native hydrological flow-routing is not available within the GEE API.
 - Classification thresholds are AOI-relative (percentile-based); results from different AOIs are not directly comparable in absolute terms without re-running on a shared extent.
@@ -157,21 +163,17 @@ The classified surface should be validated against independent reference data (e
 - مؤشر TWI هو تقريب مبني على الانحدار وليس مؤشرًا حقيقيًا مبنيًا على تجميع التدفق الهيدرولوجي، نظرًا لعدم توفر خوارزميات توجيه التدفق الأصلية ضمن واجهة برمجة GEE.
 - عتبات التصنيف نسبية لمنطقة الدراسة (مبنية على المئينات)؛ لذا لا تكون النتائج من مناطق دراسة مختلفة قابلة للمقارنة المباشرة بالقيم المطلقة دون إعادة التشغيل على نطاق مشترك.
 
-## 9. How to Cite | طريقة الاستشهاد
+## 10. How to Cite | طريقة الاستشهاد
 
 > Akreyi, S. S. (2026). *An Adaptive Terrain Attribute Framework (ATAF) for Land Unit Classification and Agricultural Plain Delineation using GEO-Coding: A Case Study of Akre District, Northern Iraq* [Software]. Google Earth Engine implementation.
 
-## 10. Author | إعداد
+## 11. Author | إعداد
 
 **This Framework Developed By: Asst. Prof. Dr. Sameer S. Akreyi © 2026**
 
 **إعداد: أ.م.د. سمير س. عقراوي © 2026**
 
-## 11. License | الترخيص
-
-Please specify your preferred license (e.g., MIT, CC-BY 4.0) here before publishing — see `LICENSE`.
-
-يُرجى تحديد الترخيص المفضّل (مثل MIT أو CC-BY 4.0) هنا قبل النشر — راجع ملف `LICENSE`.
+.
 
 ## References | المراجع
 
