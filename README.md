@@ -131,6 +131,7 @@ The classified surface should be validated against independent reference data (e
 6. بعد عرض الخريطة، استخدم زر **Export Classification (GeoTIFF)** لتصدير النتيجة إلى Google Drive.
 
 ##6.## Live Application | التطبيق المباشر
+App Direct Link : https://drsameer-488014.projects.earthengine.app/view/ataf-v01
 
 [![Open in Google Earth Engine](https://img.shields.io/badge/Open%20in-Google%20Earth%20Engine-4CAF50?logo=google&logoColor=white)](https://code.earthengine.google.com/31c06649debd0f95867c9d280b69d3fa)
 
